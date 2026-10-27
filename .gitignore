@@ -1,0 +1,26 @@
+# Secretos
+.env
+
+# Datos (se descargan de Kaggle, ver README)
+data/
+datalake/
+monitoring/*.csv
+*.duckdb
+
+# MLflow / logs
+mlflow.db
+notebooks/mlflow.db
+mlruns/
+notebooks/mlruns/
+logs/
+
+# Binarios y entorno
+duckdb.exe
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Copia de seguridad del modelo antiguo (con SMOTE)
+src/*_ANTIGUO.pkl
